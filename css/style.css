@@ -1,0 +1,111 @@
+.tabs {
+    margin: 0;
+    margin-top: 5px;
+   
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    
+   
+}
+.tabs li {
+    margin: 1px;
+    float: left;
+    border: 1px solid #04c832;
+    background: #04c832;
+    border-radius: 5px;
+}
+.tabs li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+      border-radius: 5px;
+}
+.tabs li a:hover {background: #05b52e;}    
+.tabs li.active, 
+.tabs li.active a:hover  {
+    font-weight: bold;
+    background: #fff;
+      border-radius: 5px;
+}
+
+.tab_container {
+    border: 1px solid #04c832;
+    
+    background: #fff;
+     border-radius: 5px;
+}
+.tab_content {
+    padding: 10px;
+    font-size: 16px;
+}
+.tabs1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    
+}
+.tabs1 li {
+     margin: 1px;
+    float: left;
+    border: 1px solid #04c832;
+    border-radius: 5px;
+    background: #04c832;
+}
+.tabs1 li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+     border-radius: 5px;
+}
+.tabs1 li a:hover {background: #05b52e;}    
+.tabs1 li.active, 
+.tabs1 li.active a:hover  {
+    font-weight: bold;
+    background: #fff;
+     border-radius: 5px;
+}
+.tab_content1 {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.tabs2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  
+}
+.tabs2 li {
+     margin: 1px;
+    float: left;
+    border: 1px solid #04c832;
+    border-radius: 5px;
+    background: #04c832;
+}
+.tabs2 li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+     border-radius: 5px;
+}
+.tabs2 li a:hover {background: #05b52e;}    
+.tabs2 li.active, 
+.tabs2 li.active a:hover  {
+    font-weight: bold;
+    background: #fff;
+     border-radius: 5px;
+}
+.tab_content2 {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
